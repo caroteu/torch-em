@@ -1,6 +1,7 @@
 from .aisegcell import get_aisegcell_loader, get_aisegcell_dataset
 from .bbbc030 import get_bbbc030_loader, get_bbbc030_dataset
 from .bbbc034 import get_bbbc034_loader, get_bbbc034_dataset
+from .bbbc041 import get_bbbc041_loader, get_bbbc041_dataset
 from .arvidsson import get_arvidsson_loader, get_arvidsson_dataset
 from .bac_mother import get_bac_mother_loader, get_bac_mother_dataset
 from .balf import get_balf_loader, get_balf_dataset
@@ -61,8 +62,11 @@ from .orgasegment import get_orgasegment_loader, get_orgasegment_dataset
 from .organoid import get_organoid_loader, get_organoid_dataset
 from .organoidnet import get_organoidnet_loader, get_organoidnet_dataset
 from .parhyale_regen import get_parhyale_regen_loader, get_parhyale_regen_dataset
+from .phdfm import get_phdfm_loader, get_phdfm_dataset
 from .phmamm import get_phmamm_loader, get_phmamm_dataset
 from .plantseg import get_plantseg_loader, get_plantseg_dataset
+from .plasmocount import get_plasmocount_loader, get_plasmocount_dataset
+from .plasmodium import get_plasmodium_loader, get_plasmodium_dataset
 from .pnas_arabidopsis import get_pnas_arabidopsis_loader, get_pnas_arabidopsis_dataset
 from .segpc import get_segpc_loader, get_segpc_dataset
 from .scaffold_a549 import get_scaffold_a549_loader, get_scaffold_a549_dataset
